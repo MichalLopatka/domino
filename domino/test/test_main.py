@@ -7,6 +7,7 @@ def test_domino0():
 
     assert "".join(falling.domino) == r"||///\\||/\|", "Źle się przewróciło"
 
+
 def test_domino1():
     falling = Falling()
     falling.domino_alg(iterations=2, domino=r"||////\\\|////|", reverse=True)

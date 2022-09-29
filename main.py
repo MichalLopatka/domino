@@ -1,10 +1,11 @@
-from domino.falling import Falling
+from domino.manage import ManageFlow
 
 
 def main():
-    falling = Falling()
-    falling.domino_alg(iterations=1, domino=r"||//||\||/\|")
-    falling.domino_alg(iterations=2, domino=r"||////\\\|////|", reverse=True)
+    manage = ManageFlow()
+    manage.input()
+    manage.call_domino()
+
 
 if __name__ == "__main__":
     main()

@@ -1,12 +1,12 @@
 from typing import Dict
 
+
 class Falling:
-    
     def domino_alg(self, iterations: int, domino: str, reverse: bool = False):
         """
         Main class method calling other to concduct algorithm
-        param iterations: int 
-            number of iterations of algorithm 
+        param iterations: int
+            number of iterations of algorithm
         param domino: str
             input domino consisting of '/|\\'
         reverse: bool= False
